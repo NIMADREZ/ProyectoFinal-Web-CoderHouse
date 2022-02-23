@@ -1,0 +1,15 @@
+@import "./pages/index.scss";
+@import "./pages/ayuda.scss";
+@import "./pages/ingresa.scss";
+@import "./pages/ofertas.scss";
+@import "./pages/productos.scss";
+footer{
+    background-color: map-get($colores, secu);
+    background-image: linear-gradient(to bottom, map-get($colores, princi), map-get($colores, secu));
+    text-align: center;
+    text-decoration: none;
+    margin: 50px 0 0 0;
+}
+.abajo{
+    text-decoration: none;
+}

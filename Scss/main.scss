@@ -1,0 +1,40 @@
+@import "./pages/index.scss";
+@import "./pages/ayuda.scss";
+@import "./pages/ingresa.scss";
+@import "./pages/ofertas.scss";
+@import "./pages/productos.scss";
+
+main{
+    background-color: map-get($colores, princi );
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+.cuerpo{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 20px 30px 20px 30px;
+    text-align: center;
+    overflow:auto;
+}
+img{
+    height: auto;
+}
+img:hover{
+    height: 150px;
+    width: 200px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    z-index: 2;
+}
+h2{
+    text-align: center;
+    margin: 15px 0;
+}
